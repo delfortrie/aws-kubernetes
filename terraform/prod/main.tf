@@ -119,7 +119,7 @@ resource "aws_instance" "odin_control_1" {
 
 # EC2 VyOS 01
 resource "aws_instance" "vyos_1" {
-  ami = "ami-0401b6029169b8ff5"
+  ami = "ami-01be19d9d4f6d7eba"
   availability_zone = "us-east-1a"
   instance_type = "t3.micro"
   subnet_id = aws_subnet.public_1a.id
